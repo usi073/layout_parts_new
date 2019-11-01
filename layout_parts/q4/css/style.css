@@ -23,42 +23,35 @@
   margin-bottom: 0;
 }
 
-.cell__1{
+.bar {
   display: table-cell;
-  width: 100px;
   padding: 20px;
+}
+
+.cell__1{
+  width: 100px;
   background-color: #fdc8b8;
 }
 
 .cell__2{
-  display: table-cell;
-  padding: 20px;
   background-color: #e0abd9;
 }
 
 .cell__3{
-  display: table-cell;
   width: 100px;
-  padding: 20px;
   background-color: #b6d8ed;
 }
 
 .cell__4{
-  display: table-cell;
-  padding: 20px;
   background-color: #e5d32e;
 }
 
 .cell__5{
-  display: table-cell;
-  padding: 20px;
   background-color: #ec8f9a;
 }
 
 .cell__6{
-  display: table-cell;
   width: 500px;
-  padding: 20px;
   background-color: #8fdcad;
 }
 

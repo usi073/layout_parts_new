@@ -17,13 +17,13 @@
   padding: 20px;
 }
 
-.img1 {
+.img__left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.img2 {
+.img__right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

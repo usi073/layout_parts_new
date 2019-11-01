@@ -8,12 +8,16 @@
   border-collapse: collapse;
 }
 
-.q3__tr:nth-child(odd) {
+.q3__content tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.border {
+.q3__content tr:nth-child(n+5) {
   border-bottom: dashed 2px #000;
+}
+
+.q3__content tr:last-child {
+ border-bottom: none;
 }
 
 .q3__content th {
