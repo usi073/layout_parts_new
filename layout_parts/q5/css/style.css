@@ -75,11 +75,11 @@
   background-color: #de70cf;
 }
 
-.q5__content:after {
+.cell__8:after {
   content:"" ;
   position: absolute;
-  top: 120px;
-  left: 200px;
+  top: 0;
+  right: 0;
   z-index: 8;
   width: 20px;
   height: 20px;

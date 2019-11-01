@@ -48,7 +48,7 @@
   background-color: #fff;
 }
 
-.q6__content5 {
+.q6__content__position {
   position: relative;
 }
 
@@ -59,12 +59,6 @@
   left: 0;
   right: 0;
   margin: auto;
-  width: 110px;
-  height: 30px;
-}
-
-.q6__content6 {
-  position: relative;
 }
 
 .content6__cell {

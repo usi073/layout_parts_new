@@ -11,7 +11,7 @@
   display: table;
   box-sizing: border-box;
   width: 100%; 
-  margin: 20px auto;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -19,38 +19,34 @@
   margin-top: 0;
 }
 
-.q4__box:last-child {
-  margin-bottom: 0;
-}
-
 .bar {
   display: table-cell;
   padding: 20px;
 }
 
-.cell__1{
+.cell__orange{
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.cell__2{
+.cell__purple{
   background-color: #e0abd9;
 }
 
-.cell__3{
+.cell__blue{
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.cell__4{
+.cell__yellow{
   background-color: #e5d32e;
 }
 
-.cell__5{
+.cell__red{
   background-color: #ec8f9a;
 }
 
-.cell__6{
+.cell__green{
   width: 500px;
   background-color: #8fdcad;
 }

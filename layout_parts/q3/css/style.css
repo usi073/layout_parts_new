@@ -8,11 +8,11 @@
   border-collapse: collapse;
 }
 
-.q3__content tr:nth-child(odd) {
+.q3__content tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3__content tr:nth-child(n+5) {
+.q3__content tr:nth-child(n+4) {
   border-bottom: dashed 2px #000;
 }
 

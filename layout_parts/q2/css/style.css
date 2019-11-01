@@ -9,12 +9,10 @@
 
 .q2__content {
   width: 940px;
-  margin: 0px auto;
-  background-color: #eff3f4;
-}
-
-.q2__content__wrapper {
+  margin: auto;
+  box-sizing: border-box;
   padding: 20px;
+  background-color: #eff3f4;
 }
 
 .img__left {
@@ -30,8 +28,7 @@
 }
 
 .q2__content__text {
-  text-align: justify;
-  text-justify: auto;
+  word-break: break-all;
   font-size: 18px;
   line-height: 22px;
 }
