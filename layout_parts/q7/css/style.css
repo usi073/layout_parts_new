@@ -2,4 +2,88 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7__float--text {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7__float--text:first-child {
+  margin-left: 0;
+}
+
+.q7__table-inner {
+  display: table;
+}
+
+.q7__table-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+  font-size: 16px;
+  padding-left: 50px; 
+}
+
+.q7__table-box:first-child {
+  padding-left: 0;
+}
+
+.q7__inlineblock-inner {
+  font-size: 0;
+}
+
+.q7__inlineblock-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7__inlineblock-box:first-child {
+  margin-left: 0;
+}
+
+.q7__flex-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7__flex-box {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.q7__negamargin {
+  width: 100%;
+  font-size: 0; 
+}
+
+.q7__inlineblock-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  font-size: 16px;
+}
+
+.q7__inlineblock-margin {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
