@@ -1,14 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q10__content {
-  text-align: center;
-}
 
 .q10__callout {
   position: relative;
-  display: inline-block;
-  /* margin: auto 0; */
+  margin: auto;
   padding: 20px;
   width: 500px;
   border-radius: 30px;
@@ -18,12 +14,15 @@
   border: solid 5px #222;
 }
 
-.q10__callout:before {
+.q10__callout:before , .q10__callout:after {
   content: "";
   position: absolute;
   display: block;
   width: 0;
   height: 0;
+}
+
+.q10__callout:before {
   left: 30px;
   bottom: -22px;
   border-top: 25px solid #fff;
@@ -33,11 +32,6 @@
 }
 
 .q10__callout:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
   left: 25px;
   bottom: -30px;
   border-top: 30px solid #222;
